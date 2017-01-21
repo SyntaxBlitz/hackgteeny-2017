@@ -1,3 +1,3 @@
 Cool HackGTeeny game
 
-by Timothy J. Aveni
+by Timothy J. Aveni, Ajaydeep Singh
