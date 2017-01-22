@@ -14,6 +14,7 @@ window.onload = function () {
 		context.clearRect(0, 0, WIDTH, HEIGHT);
 
 		context.fillStyle = 'black';
+		context.font = '36px sans-serif';
 		context.fillText('Points: ' + points, 10, 50);
 
 		for (var i = 0; i < rects.length; i++) {
@@ -28,7 +29,7 @@ window.onload = function () {
 		}
 
 		if (!lost) {
-			if (Math.random() < (1 / (60 / (points + 1)))) {
+			if (Math.random() < (1 / (60 / (points / 5 + 1)))) {
 				var x = Math.random() * (WIDTH - 50);
 				var y = Math.random() * (HEIGHT - 50);
 
