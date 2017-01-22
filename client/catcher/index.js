@@ -81,8 +81,8 @@ window.onload = function () {
 		function drawPlay() {
 			context.clearRect(0, 0, canvas.width, canvas.height);
 
-			drawCircles();
 			drawBalls();
+			drawCircles();
 			drawPulses();
 		}
 
