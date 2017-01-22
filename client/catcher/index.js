@@ -258,17 +258,18 @@ window.onload = function () {
 				restart();
 			}
 		}
-
-		function restart () {
-			points = 0;
-			frames = 0;
-			state = 'playing';
-			balls = [];
-			pulses = [];
-		}
 		
 		frame++;
 		window.requestAnimationFrame(render);
+	}
+
+
+	function restart () {
+		points = 0;
+		frames = 0;
+		state = 'playing';
+		balls = [];
+		pulses = [];
 	}
 
 	function refreshGamepads(alreadyLoaded) {
